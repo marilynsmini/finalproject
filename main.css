@@ -3,7 +3,7 @@
 
 body {
 	background-color: #E7E5D4;
-	background: url("file:///C|/Users/maril/OneDrive/Documents/GitHub/html3/images/background.png") no-repeat;
+	background: url("file:///C|/Users/maril/OneDrive/Documents/GitHub/finalproject/images/background.png") no-repeat;
 	background-position: center
 	
 }
@@ -69,29 +69,6 @@ div {
 	font-size: 18px;
 }
 
-
-
-.left {
-	width: 400px;
-	float: left;
-	margin-left: 40px; 
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-.right {
-	width: 400px;
-	float: left;
-	margin-left: 60px;
-	margin-top: 200px;
-	font-family: 'Roboto', sans-serif;
-	color: #A3831D;
-	font-size: 18px;
-}
-
-aside {
-	display: block;
-}
 
 
 	
