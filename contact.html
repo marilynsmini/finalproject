@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Final Project</title>
+<link href="main.css" type="text/css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+
+	
+</head>
+
+<body>
+	<header><a href="index.html"><img src="images/Mommy Makes.png" alt="Mommy Makes Logo"></a></header>
+	<br>
+	<br>
+	<br>
+	
+	<nav >
+		<ul>
+			
+		<li><a href="about.html">About</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="order.html">Order</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		</ul>	
+		
+	</nav>
+
+	<div id="flip">How can you reach me?</div>
+	<div id="panel">Phone: (210)749-9524
+	<br>
+	Email: mommymakesfunthings@gmail.com</div>
+	
+	<br>
+
+	
+<footer>mommymakesfunthings@gmail.com</footer>
+</body>
+</html>
